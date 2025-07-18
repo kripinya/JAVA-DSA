@@ -1,0 +1,89 @@
+Arrays
+//declaration
+type arr_name[];
+type[] name;
+
+//initialisation
+name = new type[size];
+
+
+//create an Array
+int[] num = new int[5];//declaring and allocating memory in one statement
+
+//assigning value to array
+num[0] = 56;
+
+//access an element in Array
+System.out.println(num[0]);
+
+//array element (changing the first element to 20)
+num[0] = 20;
+
+//array length
+int l = num.length;
+
+PROPERTIES
+1. in java all arrays are dynamically allocated
+2. arrays may be stored in contigouos memory 
+3. since arrays are objects in java, we can find their length using object property length.
+4. index in array starts from 0
+5. can also be used as static field, a local variable and method parameter.
+
+[40 , 55, 63, 17, 63, 78, 29, 92]
+  0    1   2   3   4   5   6   7
+
+//array literal
+int[] arr = new int[]{1, 2, 4, 6, 7,8, 9};
+the length determines the length of the created array
+there is no need to write new int[] part in the latest versions of java
+
+//accessing java arrays using loop
+for(int i = 0; i <n; i++){
+    System.out.println(arr[i]);
+}
+//loop for entering values in the array
+for(int i = 0; i <n; i++){
+    arr[i] = sc.nextInt[];
+}
+
+TYPES OF ARRAYS IN java
+1. single-D array
+int[] singleD arr = {1, 2, 3, 4, 5};
+
+2. multi-d array
+int[][] arr = {{1, 2, 3}, {4, 5}, {6, 7, 8}};
+
+//array of objects in java
+ObjectType[] name;
+or 
+ObjectType arrName[];
+=> Student arr[]; 
+(class Student {
+    public int roll_no;
+    public String name;
+  
+    Student(int roll_no, String name){
+        this.roll_no = roll_no;
+        this.name = name;
+    }
+})
+
+//passing arrays to methods
+    public static void sum(int[] arr){
+        // getting sum of array values
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++)
+            sum += arr[i];
+        System.out.println("sum of array values : " + sum);
+    }
+
+//returning arrays from methods.
+public static int[] m1()
+    {
+        // returning  array
+        return new int[] { 1, 2, 3 };
+    }
+
+//java array members
+1. primitive type arrays- any type which can be implicityly promoted to declared type
+2. object type arrays- either declared type objects or it's child class objects
