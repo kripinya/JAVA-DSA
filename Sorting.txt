@@ -1,0 +1,20 @@
+sorting refers to rearrangement of a given array or list of elements according to a comparison operator on the elements.
+- it is imp as it reduces the complexity of the problem
+
+sorting basics
+1. in place sorting-(uses constant space for producing the output, modifies the given array only)
+2. Internal sorting - when all the data is placed in the main memory or internal memory, probkem cannot take inout beyond allocated memory size.
+3. External sorting - when all the data is placed in memory at a time, used for masive amount of data 
+4. Stable sorting- when two same items appear in same order in sorted data as in the original array 
+5. Hybrid sorting- a sorting algo which uses more than one standard sorting algo to sort the array.
+
+Types of sorting techni-
+1. comparison based- we compare the elements in a comparisonbassed sorting algo(bubbl, insertion, selection, quick, merge, heap)
+2. non-comparison based- we do not compare te elements in a non comparison based sorting algo(counting, radix)
+
+//selection sort
+1. First we find the smallest element and swap it with the first element. This way we get the smallest element at its correct position.
+2. Then we find the smallest among remaining elements (or second smallest) and swap it with the second element.
+3. We keep doing this until we get all elements moved to correct position.
+
+
