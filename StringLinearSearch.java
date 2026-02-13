@@ -1,4 +1,4 @@
-public class arraySearch {
+public class StringLinearSearch {
     public static void main(String[] args){
         String name = "Ananya";
         int n = name.length();

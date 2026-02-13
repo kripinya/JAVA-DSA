@@ -16,8 +16,11 @@ count++;
 if (list.size()<3)
 	System.out.print("less than 3 no present in array");
 }
+public class threeLargestElements{
 public static void main(String[] args){
 int arr[] = {12, 23, 45, 67, 34, 78, 56, 89};
 findThreeLargest(arr);
 }
 }
+}
+
