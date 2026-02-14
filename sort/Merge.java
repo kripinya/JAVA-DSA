@@ -1,5 +1,5 @@
 //follows divide and conquer approach, works by recursively dividing the input array into halves recursively sorting the two halves and finally merging them back together again to pbtain the sorted array.
-
+package sort;
 public class Merge{
     static void merge(int arr[], int l, int m, int r){
         //find sizes of two subarrays to be merged

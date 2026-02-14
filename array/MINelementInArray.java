@@ -1,4 +1,4 @@
-public class findMinNo {
+public class MINelementInArray {
     public static int findMinimum(int arr[]){
        int n = arr.length;
         int min = arr[0];

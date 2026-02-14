@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class minElement2D {
+public class minElement2DArray {
     public static int[] minElement(int[][] arr){
         int[] min = {arr[0][0], 0, 0};
         for (int i = 0; i < arr.length; i++) {

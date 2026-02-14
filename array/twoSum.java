@@ -1,8 +1,8 @@
-package array;
 import java.util.Scanner;
 
-class Solution {
+public class TwoSum {
 
+    // Method inside same class
     public int[] twoSum(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {
@@ -21,7 +21,7 @@ class Solution {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the number of elements: ");
+        System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
 
         int[] nums = new int[n];
@@ -34,8 +34,8 @@ class Solution {
         System.out.print("Enter target value: ");
         int target = sc.nextInt();
 
-        // FIX HERE
-        Solution obj = new Solution();
+        // create object of SAME class
+        TwoSum obj = new TwoSum();
         int[] result = obj.twoSum(nums, target);
 
         if (result[0] != -1) {

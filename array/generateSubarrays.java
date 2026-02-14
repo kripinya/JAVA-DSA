@@ -1,4 +1,3 @@
-package array;
 public class GenerateSubarrays {
 
     public static void generateSubarrays(int arr[], int start, int end) {

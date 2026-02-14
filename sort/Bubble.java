@@ -1,7 +1,7 @@
 //simplest algo that works by repeatedly swapping the adjacent two elements 
 //if they are in the wrong order
 //not suitable for large datasets 
-
+package sort;
 public class Bubble {
     static void sort(int arr[]){
         int n = arr.length;

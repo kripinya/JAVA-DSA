@@ -1,4 +1,4 @@
-public class Main {
+public class recur_printAlternate {
   public static void printAlternate(int[] arr, int index){
   if(index > arr.length){
   return;

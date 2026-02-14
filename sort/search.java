@@ -1,5 +1,5 @@
 //to search an element in unsorted array
-
+package sort;
 class search {
 
     static int findElement(int arr[], int n, int key) {

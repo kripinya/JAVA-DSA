@@ -1,7 +1,4 @@
-package array;
-import java.util.*;
-
-class BinarySearchIterative {
+public class BinarySearchIterative {
 
     int binarySearch(int arr[], int x) {
 
