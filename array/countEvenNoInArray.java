@@ -1,4 +1,4 @@
-public class findEvenNoInArray {
+public class countEvenNoInArray {
     public static int findEven(int arr[]){
         int n = arr.length;
         int count = 0;

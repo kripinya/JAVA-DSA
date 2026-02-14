@@ -1,4 +1,5 @@
-//expected approach
+
+package basicjava;
 import java.util.Scanner;
 //find the number closest to n and divisible by m
 public class ClosestNum2 {
