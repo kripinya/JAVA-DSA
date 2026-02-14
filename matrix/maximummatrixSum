@@ -1,0 +1,26 @@
+class Solution {
+    public long maxMatrixSum(int[][] matrix) {
+        int n = matrix.length;
+        long sumAbs = 0;
+        int minAbs = Integer.MAX_VALUE;
+        int negCount = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                int val = matrix[i][j];
+                if (val < 0) negCount++;
+
+                int absVal = Math.abs(val);
+                sumAbs += absVal;
+                minAbs = Math.min(minAbs, absVal);
+            }
+        }
+
+        // If odd number of negatives, one smallest abs value must stay negative
+        if (negCount % 2 == 1) {
+            sumAbs -= 2L * minAbs;
+        }
+
+        return sumAbs;
+    }
+}

@@ -1,0 +1,20 @@
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) return 0;
+
+        // i points to the last unique element
+        int i = 0;
+
+        // j scans through the array
+        for (int j = 1; j < nums.length; j++) {
+            // if nums[j] is different, it's a new unique element
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];  // place new unique at next position
+            }
+        }
+
+        // number of unique elements is i + 1
+        return i + 1;
+    }
+}
