@@ -1,5 +1,6 @@
 //program to print a table of number n
 //interative approach
+package basicjava;
 import java.util.Scanner;
 
 public class PrintTable {

@@ -1,5 +1,5 @@
-import java.util.Scanner;
-
+package basicjava;
+import java.util.*;
 public class Swap2 {
     public void swap(int a, int b){//let a= 2, b = 3 
         a = a + b;//5
