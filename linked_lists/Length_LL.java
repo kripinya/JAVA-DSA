@@ -1,12 +1,5 @@
 package linked_lists;
-class Node{
-    int data;
-    Node next;
-    Node(int data){
-        this.data = data;
-        this.next = null;
-    }
-}
+
 public class Length_LL {
     public static int countNodes(Node head){
         int count = 0;

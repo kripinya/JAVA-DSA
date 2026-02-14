@@ -15,12 +15,3 @@ public class singlyLL_structure {
     }
 
 }
-class Node {
-    int data;
-    Node next;
-    //constructor to initialize the 
-public Node(int data){
-this.data = data;
-this.next = null;
-}
-}
