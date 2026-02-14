@@ -1,5 +1,6 @@
 //print a table with the number n
 //recursive approach
+package basicjava;
 import java.util.Scanner;
 public class PrintTable2{
     static void printtable(int n, Integer... val){

@@ -1,5 +1,5 @@
 //Given a positive integer n, we have to find the sum of squares of first n natural numbers.
-
+package basicjava;
 import java.util.Scanner;
 //naive approach
 //to run a loop from 1 to n and sum up all the squares. 

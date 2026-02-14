@@ -1,3 +1,4 @@
+package basicjava;
 import java.util.Scanner;
 //we are given a cubic dice with 6 faces. all the individual faces have a number printed on them(1 to 6)
 //we will be provided with the face of the cube, task is to guess the number on the opposite face of the cube.

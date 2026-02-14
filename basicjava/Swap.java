@@ -1,3 +1,4 @@
+package basicjava;
 import java.util.Scanner;
 //naive approach- Using Third Variable
 public class Swap {
