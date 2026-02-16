@@ -1,3 +1,4 @@
+package sort;
 public class Quick {
     static int partition(int arr[], int low, int high){
         //choose the pivot

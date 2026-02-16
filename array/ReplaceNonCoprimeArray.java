@@ -9,6 +9,7 @@ Return the final modified array. It can be shown that replacing adjacent non-cop
 The test cases are generated such that the values in the final array are less than or equal to 108.
 
 Two values x and y are non-coprime if GCD(x, y) > 1 where GCD(x, y) is the Greatest Common Divisor of x and y.*/
+
 import java.util.*;
 
 class Solution {
